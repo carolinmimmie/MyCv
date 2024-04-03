@@ -2,62 +2,83 @@ export const personalData = {
   name: "Carolin Andersson",
   role: "Frontend Developer",
   education: [
+    "Afonso AB - Praktikplats, Frontend-utvecklare (nov.2023 -juni.2024)",
     "EC Utbilding - Yrkesutbildning, Frontend-utvecklare (aug.2022-juni.2024)",
-    "Nti skolan  - Förberedande kurser i webbutveckling 1,2 och Programmering 1  (maj.2021-april.2022)",
   ],
   contactLinks: [
-    "mailto:emailto:carolinmimmie@gmail.com",
+    "mailto:carolinmimmie@gmail.com",
     "https://www.linkedin.com/in/carolin-andersson-b8b34b249/",
   ],
 };
 
 export const aboutMe = {
-  title: "About Me",
+  title: "Om mig",
   body: [
-    "As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-    "When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+    "Som färdigutbildad frontend-utvecklare ser jag fram emot att ta steget in i arbetslivet till sommaren. Jag är en positiv och driven individ som älskar den kreativa processen bakom frontend-utveckling, där idéer förvandlas till verkliga produkter. Att få direkt bekräftelse på det jag skapar är en stor motivationsfaktor för mig. Min erfarenhet inom hotell- och restaurangbranschen har utvecklat min sociala förmåga, arbetsmoral, kundkontakt och teamkänsla, vilket jag ser som en fördel i mitt framtida arbete.",
+    "På min fritid njuter jag av kvalitetstid med familj och vänner, tar del av sommarvistelser på torpet, har ett intresse för inredning och uppskattar god mat samt restaurangbesök.",
   ],
 };
 
 export const skills = {
-  soft: [
-    { icon: "👂🏼", text: "Active Listening" },
-    { icon: "💬", text: "Effective Communication" },
-    { icon: "👥", text: "Collaboration" },
-    { icon: "⽓", text: "Teamwork" },
-    { icon: "💡", text: "Creative Problem Solving" },
-    { icon: "⌛️", text: "Time management" },
+  egenskaper: [
+    { icon: "👂🏼", text: "Lyssnare" },
+    { icon: "💬", text: "Social" },
+    { icon: "👥", text: "Samarbete" },
+    { icon: "🤝", text: "Teamwork" },
+    { icon: "💡", text: "Kreativ Problemlösning" },
+    { icon: "💪", text: "Hög Arbetsmoral" },
   ],
-  hard: [
-    { icon: "💻", text: "Python" },
+  kompetenser: [
+    { icon: "🌐", text: "HTML" },
+    { icon: "🖌️", text: "CSS" },
+    { icon: "🛠️", text: "Tailwind" },
+    { icon: "🎨", text: "Sass" },
     { icon: "ʦ", text: "TypeScript" },
-    { icon: "🚀", text: "React" },
-    { icon: "💾", text: "SQL" },
-    { icon: "💾", text: "noSQL" },
-    { icon: "📈", text: "Data Structures and Algorithms" },
+    { icon: "⚛️", text: "React" },
+    { icon: "🚀", text: "Next.js" },
+    { icon: "🔺", text: "Angular" },
+    { icon: "📄", text: "WordPress Headless" },
   ],
 };
 
 export const professionalData = {
-  title: "Professional Experience",
+  title: "Yrkeserfarenhet",
   experiences: [
     {
-      role: "Data Scientist, Acme Inc. (2021-Present)",
+      role: "Frontend Utvecklare, Afonso, Stockholm. (2023-nuvarande)",
       description:
-        "Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+        "På min nuvarande praktikplats arbetar jag som frontendutvecklare. Jag har skapat egna projekt för kunder inom next.js, typescript och Wordpress Headless med hjälp av Sass och Tailwind. Jag har även fått erfarenhet av att arbeta både i team och med kunder.",
       current: true,
     },
-
     {
-      role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+      role: "Frukost/konferensvärdinna, Hotel Rival, Stockholm. (2017-2022)",
       description:
-        "Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+        "Jag ansvarade för hotellets frukost- och konferensgäster samt ledde och fördelade arbetet inom teamet och såg till att vi hade ett gott samarbete med resten av hotellets avdelningar. ",
       current: false,
     },
     {
-      role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
+      role: "Kock/Servitris/Personansvarig        , Restaurang Klaver, Stockholm.  (2011-2015)",
       description:
-        "Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+        "Vi arbetade i ett sammansvetsats, litet team för att drivs restaurangen under både dag och kväll. ",
+
+      current: false,
+    },
+  ],
+};
+
+export const educationData = {
+  title: "Utbildning",
+  experiences: [
+    {
+      role: "Frontend Utvecklare, YH-utbildning, 400 yhp, EC-Utbildning, Växjö. (2022-nuvarande)",
+      description:
+        "Min utbildning är mångsidig och omfattar en bredd av ämnen. Inom frontend har jag studerat HTML, CSS, JavaScript och TypeScript med särskilt fokus på ramverken React och Angular. Inom backend har jag lärt mig C#, SQL och .NET. Dessutom har jag fördjupat mig inom områden som UX/UI-design och agila projektmetoder.",
+      current: true,
+    },
+    {
+      role: "Nti-skolan, Förberedande Kurser, Stockholm.  (2021-2022)",
+      description:
+        "För att förbereda mig inför utbildningen har jag genomfört förberedande kurser inom webbutveckling 1 och 2 samt programmering 1. ",
       current: false,
     },
   ],

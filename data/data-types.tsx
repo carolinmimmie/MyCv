@@ -18,8 +18,8 @@ export interface Skill {
 }
 
 export interface Skills {
-  soft: Skill[];
-  hard: Skill[];
+  egenskaper: Skill[];
+  kompetenser: Skill[];
 }
 
 export interface Experience {
@@ -29,6 +29,10 @@ export interface Experience {
 }
 
 export interface ProfessionalData {
+  title: string;
+  experiences: Experience[];
+}
+export interface EducationData {
   title: string;
   experiences: Experience[];
 }

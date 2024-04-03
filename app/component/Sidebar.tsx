@@ -12,21 +12,21 @@ const Sidebar = ({ data }: SidebarProps) => {
 
   return (
     <div className="bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed">
-      <div className="text-white flex flex-col p-10 items-center">
+      <div className="text-white flex flex-col p-10 items-center ">
         <Image
           priority
-          width={300}
-          height={300}
-          className="rounded-full h-full mb-6"
-          src="/images/gwen.jpeg"
+          width={250}
+          height={200}
+          className="rounded-full h-full m-6"
+          src="/images/profile-pic.jpeg"
           alt="profilepic for cv"
-          aria-label="julian-wan-WNoLnJo7tS8-unsplash.jpg"
         />
-        <h1 className="mb-2">{name}</h1>
-        <h2 className="mb-8">{role}</h2>
-        <p className="mb-2">{education[0]}</p>
-        <p className="mb-2">{education[1]}</p>
-        <div className="text-white text-center mb-4 mt-4 sm:mt-8">
+        <div className="text-center">
+          <h1 className="mb-2">{name}</h1>
+          <h2 className="mb-8">{role}</h2>
+          <p className="mb-2">{education[0]}</p>
+          <p className="mb-2 ">{education[1]}</p>
+          <div className="text-white text-center mb-4 mt-4 sm:mt-8"></div>
           <h3 className="mb-2"> KONTAKTA MIG</h3>
           <div className="flex flex-row justify-center gap-2">
             <a

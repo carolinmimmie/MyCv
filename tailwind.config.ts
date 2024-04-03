@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     colors: {
       black: "#191A19",
+      blue: "#00FFFF",
       yellow: "#FFF734",
       green: "#68F590",
       grey: "#F3F3F3",
@@ -33,7 +34,7 @@ module.exports = {
     },
     extend: {
       screens: {
-        sm: "640px",
+        sm: "700px",
         // => @media (min-width: 640px) { ... }
 
         md: "768px",
