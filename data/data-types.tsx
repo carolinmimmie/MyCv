@@ -18,8 +18,8 @@ export interface Skill {
 }
 
 export interface Skills {
-  technicalSkills: Skill[];
-  attributes: Skill[];
+  egenskaper: Skill[];
+  kompetenser: Skill[];
 }
 
 export interface Experience {

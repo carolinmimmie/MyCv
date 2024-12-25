@@ -28,7 +28,7 @@ const Sidebar = ({ data }: SidebarProps) => {
           <p className="mb-2 ">{education[1]}</p>
           <div className="text-white text-center mb-4 mt-4 sm:mt-8">
           <h3 className="mb-2"> KONTAKTA MIG</h3>
-          <aside>0730512284</aside>
+          <aside>073 - 051 22 84</aside>
           <div className="flex flex-row justify-center gap-2">
             <a
               className="icons-contactme"
