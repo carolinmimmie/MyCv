@@ -18,7 +18,7 @@ const Sidebar = ({ data }: SidebarProps) => {
           width={250}
           height={200}
           className="rounded-full h-full m-6"
-          src="/images/profile-pic.jpeg"
+          src="/images/profile.png"
           alt="profilepic for cv"
         />
         <div className="text-center">

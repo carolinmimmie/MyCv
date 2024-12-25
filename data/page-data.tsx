@@ -1,9 +1,9 @@
 export const personalData = {
   name: "Carolin Andersson",
-  role: "Frontend Developer",
+  role: "Webbutvecklare",
   education: [
-    "Afonso AB - Praktikplats, Frontend-utvecklare (nov.2023 -juni.2024)",
-    "EC Utbilding - Yrkesutbildning, Frontend-utvecklare (aug.2022-juni.2024)",
+    "Medieinstitutet - YH-utbildning, Webbutvecklare inom e-handel (2024–nuvarande)",
+    "EC Utbildning - YH-utbildning, Frontendutvecklare (2022–2024)",
   ],
   contactLinks: [
     "mailto:carolinmimmie@gmail.com",
@@ -12,74 +12,92 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "Om mig",
+  title: "WEBBUTVECKLARE E-HANDEL",
   body: [
-    "Som färdigutbildad frontend-utvecklare ser jag fram emot att ta steget in i arbetslivet till sommaren. Jag är en positiv och driven individ som älskar den kreativa processen bakom frontend-utveckling, där idéer förvandlas till verkliga produkter. Att få direkt bekräftelse på det jag skapar är en stor motivationsfaktor för mig. Min erfarenhet inom hotell- och restaurangbranschen har utvecklat min sociala förmåga, arbetsmoral, kundkontakt och teamkänsla, vilket jag ser som en fördel i mitt framtida arbete.",
-    "På min fritid njuter jag av kvalitetstid med familj och vänner, tar del av sommarvistelser på torpet, har ett intresse för inredning och uppskattar god mat samt restaurangbesök.",
+    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstack med inriktning e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Nu vill jag ta steget ut i branschen, bidra till ett team och omsätta mina kunskaper i praktiken. Jag ser fram emot att utvecklas vidare och vara en del av er framgång.",
   ],
 };
 
 export const skills = {
   egenskaper: [
-    { icon: "👂🏼", text: "Lyssnare" },
-    { icon: "💬", text: "Social" },
-    { icon: "👥", text: "Samarbete" },
-    { icon: "🤝", text: "Teamwork" },
-    { icon: "💡", text: "Kreativ Problemlösning" },
-    { icon: "💪", text: "Hög Arbetsmoral" },
+    { icon: "👂🏼", text: "Lyhörd" },
+    { icon: "💬", text: "Social och kommunikativ" },
+    { icon: "👥", text: "Samarbetsvillig" },
+    { icon: "🤝", text: "Ansvarsfull i team" },
+    { icon: "💡", text: "Kreativ problemlösare" },
+    { icon: "💪", text: "Hög arbetsmoral" },
+    { icon: "📈", text: "Resultatinriktad" },
+    { icon: "🕒", text: "God tidsplanering" },
   ],
   kompetenser: [
+    // Språk
     { icon: "🌐", text: "HTML" },
     { icon: "🖌️", text: "CSS" },
-    { icon: "🛠️", text: "Tailwind" },
-    { icon: "🎨", text: "Sass" },
     { icon: "ʦ", text: "TypeScript" },
-    { icon: "⚛️", text: "React" },
-    { icon: "🚀", text: "Next.js" },
+  
+    // Ramverk/Bibliotek
     { icon: "🔺", text: "Angular" },
+    { icon: "🚀", text: "Next.js" },
+    { icon: "⚛️", text: "React" },
+    { icon: "📚", text: "Storybook" },
+    { icon: "🎨", text: "Material UI" },
+    { icon: "🎨", text: "SASS" },
+    { icon: "🛠️", text: "Tailwind CSS" },
+    { icon: "📦", text: "Bootstrap" },
+  
+    // Databaser/Verktyg
+    { icon: "💾", text: "MySQL Workbench" },
+    { icon: "🍃", text: "MongoDB" },
+    { icon: "🗂️", text: "SQL" },
+  
+    // CMS
     { icon: "📄", text: "WordPress Headless" },
   ],
-};
-
-export const professionalData = {
-  title: "Yrkeserfarenhet",
-  experiences: [
-    {
-      role: "Frontend Utvecklare, Afonso, Stockholm. (2023-nuvarande)",
-      description:
-        "På min nuvarande praktikplats arbetar jag som frontendutvecklare. Jag har skapat egna projekt för kunder inom next.js, typescript och Wordpress Headless med hjälp av Sass och Tailwind. Jag har även fått erfarenhet av att arbeta både i team och med kunder.",
-      current: true,
-    },
-    {
-      role: "Frukost/konferensvärdinna, Hotel Rival, Stockholm. (2017-2022)",
-      description:
-        "Jag ansvarade för hotellets frukost- och konferensgäster samt ledde och fördelade arbetet inom teamet och såg till att vi hade ett gott samarbete med resten av hotellets avdelningar. ",
-      current: false,
-    },
-    {
-      role: "Kock/Servitris/Personansvarig        , Restaurang Klaver, Stockholm.  (2011-2015)",
-      description:
-        "Vi arbetade i ett sammansvetsats, litet team för att drivs restaurangen under både dag och kväll. ",
-
-      current: false,
-    },
-  ],
+  
 };
 
 export const educationData = {
   title: "Utbildning",
   experiences: [
     {
-      role: "Frontend Utvecklare, YH-utbildning, 400 yhp, EC-Utbildning, Växjö. (2022-nuvarande)",
+      role: "Webbutvecklare inom e-handel, YH-utbildning, Medieinstitutet, Stockholm (2024–nuvarande)",
       description:
-        "Min utbildning är mångsidig och omfattar en bredd av ämnen. Inom frontend har jag studerat HTML, CSS, JavaScript och TypeScript med särskilt fokus på ramverken React och Angular. Inom backend har jag lärt mig C#, SQL och .NET. Dessutom har jag fördjupat mig inom områden som UX/UI-design och agila projektmetoder.",
+        "Utbildning i front- och backendutveckling med fokus på e-handelssystem, API-utveckling och tredjepartsintegration.",
       current: true,
     },
     {
-      role: "Nti-skolan, Förberedande Kurser, Stockholm.  (2021-2022)",
+      role: "Frontendutvecklare, YH-utbildning, EC Utbildning, Växjö (2022–2024)",
       description:
-        "För att förbereda mig inför utbildningen har jag genomfört förberedande kurser inom webbutveckling 1 och 2 samt programmering 1. ",
+        "Utbildning inom frontendutveckling som omfattar både tekniska färdigheter och designprinciper, med fokus på att skapa dynamiska och användarvänliga lösningar.",
       current: false,
     },
   ],
 };
+
+export const professionalData = {
+  title: "ARBETSLIVSERFARENHET",
+  experiences: [
+    {
+      role: "Frontendutvecklare, Afonso, Stockholm (2022–2023)",
+      description:
+        "Under min praktik utvecklade jag moderna webbapplikationer med Next.js och TypeScript, implementerade CMS-lösningar med WordPress Headless och designade responsiva gränssnitt med Sass och Tailwind.",
+      current: false,
+    },
+    {
+      role: "Frukost/Konferens, Hotel Rival, Stockholm (2017–2022)",
+      description:
+        "Ansvarade för frukost- och konferensgäster, säkerställde hög servicekvalitet, ledde och fördelade arbetsuppgifter inom teamet samt främjade samarbetet med andra avdelningar på hotellet.",
+      current: false,
+    },
+    {
+      role: "Kock/Servitris/Personansvarig, Restaurang Klaver, Stockholm (2011–2015)",
+      description:
+        "Arbetade i ett sammansvetsat team för att driva restaurangen under både dag- och kvällspass, samt ansvarade för personal och service.",
+      current: false,
+    },
+  ],
+};
+
+
+
+
