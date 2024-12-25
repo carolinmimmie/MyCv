@@ -1,9 +1,9 @@
 export const personalData = {
   name: "Carolin Andersson",
-  role: "Webbutvecklare",
+  role: "Webbutvecklare e-handel",
   education: [
-    "Medieinstitutet - YH-utbildning, Webbutvecklare inom e-handel (2024–nuvarande)",
-    "EC Utbildning - YH-utbildning, Frontendutvecklare (2022–2024)",
+    "Webbutvecklare inom e-handel - YH-utbildning, Medieinstitutet (2024–nuvarande)",
+    "Frontendutvecklare - YH-utbildning, EC Utbildning (2022–2024)",
   ],
   contactLinks: [
     "mailto:carolinmimmie@gmail.com",
@@ -19,17 +19,7 @@ export const aboutMe = {
 };
 
 export const skills = {
-  egenskaper: [
-    { icon: "👂🏼", text: "Lyhörd" },
-    { icon: "💬", text: "Social och kommunikativ" },
-    { icon: "👥", text: "Samarbetsvillig" },
-    { icon: "🤝", text: "Ansvarsfull i team" },
-    { icon: "💡", text: "Kreativ problemlösare" },
-    { icon: "💪", text: "Hög arbetsmoral" },
-    { icon: "📈", text: "Resultatinriktad" },
-    { icon: "🕒", text: "God tidsplanering" },
-  ],
-  kompetenser: [
+  technicalSkills: [
     // Språk
     { icon: "🌐", text: "HTML" },
     { icon: "🖌️", text: "CSS" },
@@ -53,6 +43,17 @@ export const skills = {
     // CMS
     { icon: "📄", text: "WordPress Headless" },
   ],
+  attributes: [
+    { icon: "👂🏼", text: "Lyhörd" },
+    { icon: "💬", text: "Social och kommunikativ" },
+    { icon: "👥", text: "Samarbetsvillig" },
+    { icon: "🤝", text: "Ansvarsfull i team" },
+    { icon: "💡", text: "Kreativ problemlösare" },
+    { icon: "💪", text: "Hög arbetsmoral" },
+    { icon: "📈", text: "Resultatinriktad" },
+    { icon: "🕒", text: "God tidsplanering" },
+  ],
+ 
   
 };
 
@@ -75,7 +76,7 @@ export const educationData = {
 };
 
 export const professionalData = {
-  title: "ARBETSLIVSERFARENHET",
+  title: "ARBETSLIV",
   experiences: [
     {
       role: "Frontendutvecklare, Afonso, Stockholm (2022–2023)",
@@ -84,13 +85,13 @@ export const professionalData = {
       current: false,
     },
     {
-      role: "Frukost/Konferens, Hotel Rival, Stockholm (2017–2022)",
+      role: "Frukost/Konferens, Hotel Rival, Stockholm (2016–2022)",
       description:
         "Ansvarade för frukost- och konferensgäster, säkerställde hög servicekvalitet, ledde och fördelade arbetsuppgifter inom teamet samt främjade samarbetet med andra avdelningar på hotellet.",
       current: false,
     },
     {
-      role: "Kock/Servitris/Personansvarig, Restaurang Klaver, Stockholm (2011–2015)",
+      role: "Kock/Servitris/Personansvarig, Restaurang Klaver, Stockholm (2011–2016)",
       description:
         "Arbetade i ett sammansvetsat team för att driva restaurangen under både dag- och kvällspass, samt ansvarade för personal och service.",
       current: false,
