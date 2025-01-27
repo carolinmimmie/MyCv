@@ -19,7 +19,7 @@ export const aboutMe = {
 };
 
 export const skills = {
-  kompetenser: [
+  kodspråk: [
     // Språk
     { icon: "🌐", text: "HTML" },
     { icon: "🖌️", text: "CSS" },
@@ -43,7 +43,7 @@ export const skills = {
     // CMS
     { icon: "📄", text: "WordPress Headless" },
   ],
-  egenskaper: [
+  styrkor: [
     { icon: "👂🏼", text: "Lyhörd" },
     { icon: "💬", text: "Social och kommunikativ" },
     { icon: "👥", text: "Samarbetsvillig" },

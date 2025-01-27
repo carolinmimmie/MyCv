@@ -15,7 +15,7 @@ const Sidebar = ({ data }: SidebarProps) => {
       <div className="text-white flex flex-col p-10 items-center ">
         <Image
           priority
-          width={250}
+          width={200}
           height={200}
           className="rounded-full h-full m-6"
           src="/images/profile.png"
