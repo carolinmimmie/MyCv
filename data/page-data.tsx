@@ -159,7 +159,7 @@ export const projectData = {
       body1:
         "En användarvänlig app där du kan shoppa och hantera administratörsfunktioner. Som kund kan du bläddra igenom produkter, lägga dem i varukorgen och slutföra köp",
       body2: "Använda teknologier: React, Material UI, Bootstrap och Firebase.",
-      image: "/images/moviewatch.png",
+      image: "/images/coolfashion.png",
       current: false,
       links: [
         {
