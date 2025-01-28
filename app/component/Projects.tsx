@@ -19,15 +19,15 @@ const Projects = ({ projectData }: ProjectDataProps) => {
         {projects.map(({ title, body1,body2,image,current,links}) => (
           <div key={title} className="flex flex-col rounded-lg">
             <span className={`h-2 ${current ? "bg-blue" : "bg-grey"}`} />
-            <div className="bg-grey-light p-6 drop-shadow-md">
+            <div className="bg-grey-light p-6 drop-shadow-md ">
             <Image
         aria-label={`$Image of ${title}`}
         src={image}
         alt={`$Image of ${title}`}
-        className={"object-cover w-full h-48"}
+        className={" w-full h-48 object-cover"}
         priority={false}
         width={500}
-        height={250}
+        height={500}
       />
               <h3 className="mt-2">{title}</h3>
               <div className="flex flex-col gap-6 ">

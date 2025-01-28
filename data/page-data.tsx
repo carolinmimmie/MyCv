@@ -110,11 +110,11 @@ export const projectData = {
       links: [
         {
           text: "Github",
-          url: "https://github.com/carolinmimmie/AudioBooks",
+          url: "https://github.com/carolinmimmie/LioraWebshop",
         },
         {
           text: "Testa appen",
-          url: "https://audio-books-liart.vercel.app/",
+          url: "https://liora-webshop.vercel.app/",
         },
       ],
     },
@@ -155,20 +155,20 @@ export const projectData = {
       ],
     },
     {
-      title: "MovieMatch",
+      title: "Cool Fashion",
       body1:
-        "En webbapplikation som låter användare söka och hitta filmer baserat på deras val.",
-      body2: "Använda teknologier: Next.js, Tailwind och Open API.",
+        "En användarvänlig app där du kan shoppa och hantera administratörsfunktioner. Som kund kan du bläddra igenom produkter, lägga dem i varukorgen och slutföra köp",
+      body2: "Använda teknologier: React, Material UI, Bootstrap och Firebase.",
       image: "/images/moviewatch.png",
       current: false,
       links: [
         {
           text: "Github",
-          url: "https://github.com/carolinmimmie/MovieMatch",
+          url: "https://github.com/carolinmimmie/CoolFashion",
         },
         {
           text: "Testa appen",
-          url: "https://movie-match-tau.vercel.app/",
+          url: "https://cool-fashion.vercel.app/",
         },
       ],
     },
