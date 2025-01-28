@@ -29,6 +29,7 @@ const Projects = ({ projectData }: ProjectDataProps) => {
         width={500}
         height={500}
       />
+      
               <h3 className="mt-2">{title}</h3>
               <div className="flex flex-col gap-6 ">
               <p className="mt-2">{body1}</p>
