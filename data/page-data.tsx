@@ -12,9 +12,9 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "WEBBUTVECKLARE E-HANDEL",
+  title: "OM MIG",
   body: [
-    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstack med inriktning e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Nu vill jag ta steget ut i branschen, bidra till ett team och omsätta mina kunskaper i praktiken. Jag ser fram emot att utvecklas vidare och vara en del av er framgång.",
+    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstack med inriktning e-handel. Nu vill jag ta steget ut i branschen, bidra till ett team och omsätta mina kunskaper i praktiken. Med lång erfarenhet från restaurangbranschen har jag utvecklat hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Jag ser fram emot att utvecklas vidare och vara en del av er framgång.",
   ],
 };
 
@@ -24,7 +24,7 @@ export const skills = {
     { icon: "🌐", text: "HTML" },
     { icon: "🖌️", text: "CSS" },
     { icon: "ʦ", text: "TypeScript" },
-  
+
     // Ramverk/Bibliotek
     { icon: "🔺", text: "Angular" },
     { icon: "🚀", text: "Next.js" },
@@ -34,12 +34,12 @@ export const skills = {
     { icon: "🎨", text: "SASS" },
     { icon: "🛠️", text: "Tailwind CSS" },
     { icon: "📦", text: "Bootstrap" },
-  
+
     // Databaser/Verktyg
     { icon: "💾", text: "MySQL Workbench" },
     { icon: "🍃", text: "MongoDB" },
     { icon: "🗂️", text: "SQL" },
-  
+
     // CMS
     { icon: "📄", text: "WordPress Headless" },
   ],
@@ -53,8 +53,6 @@ export const skills = {
     { icon: "📈", text: "Resultatinriktad" },
     { icon: "🕒", text: "God tidsplanering" },
   ],
- 
-  
 };
 
 export const educationData = {
@@ -99,6 +97,116 @@ export const professionalData = {
   ],
 };
 
-
-
-
+export const projectData = {
+  title: "PROJEKT",
+  projects: [
+    {
+      title: "Poster Webshop",
+      body1:
+        "Mitt senaste projekt är en webbshop för posters med modern design och användarvänlig funktionalitet.",
+      body2: "Använda teknologier: TypeScript, HTML och SASS.",
+      image: "/images/liora-webshop.png",
+      current: true,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/AudioBooks",
+        },
+        {
+          text: "Testa appen",
+          url: "https://audio-books-liart.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "Audiobooks",
+      body1: "En bokshop där användare kan bläddra bland och köpa ljudböcker.",
+      body2:
+        "Använda teknologier: Next.js och Firebase och TailWind",
+        image: "/images/audiobooks.png",
+      current: false,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/LioraWebshop",
+        },
+        {
+          text: "Testa appen",
+          url: "https://audio-books-liart.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "Cleantidy",
+      body1:
+        "En webbapplikation som låter användare boka städtjänster snabbt och enkelt.",
+      body2: "Använda teknologier: React, Material UI och Firebase.",
+      image: "/images/cleantidy.png",
+      current: false,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/CleanTidy-react",
+        },
+        {
+          text: "Testa appen",
+          url: "https://cleantidy.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "MovieMatch",
+      body1:
+        "En webbapplikation som låter användare söka och hitta filmer baserat på deras val.",
+      body2: "Använda teknologier: Next.js, Tailwind och Open API.",
+      image: "/images/moviewatch.png",
+      current: false,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/MovieMatch",
+        },
+        {
+          text: "Testa appen",
+          url: "https://movie-match-tau.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "FindWeather",
+      body1:
+        "En webbapplikation där användare kan söka efter väderprognos för sin stad och se en veckovis väderprognos.",
+      body2: "Använda teknologier: Next.js, Tailwind CSS och Open API.",
+      image: "/images/findweather.png",
+      current: false,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/FindWeather",
+        },
+        {
+          text: "Testa appen",
+          url: "https://find-weather-one.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "Todo",
+      body1:
+        "En enkel webbapplikation för att skapa och hantera att-göra-listor.",
+      body2: "Använda teknologier: React och CSS.",
+      image: "/images/todo.png",
+      current: false,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/TodoReact",
+        },
+        {
+          text: "Testa appen",
+          url: "  https://todo-react-xi-teal.vercel.app/",
+        },
+      ],
+    },
+  ],
+};

@@ -36,3 +36,21 @@ export interface EducationData {
   title: string;
   experiences: Experience[];
 }
+
+export interface Links {
+  text:string;
+  url:string;
+}
+export interface Projects {
+  title: string;
+  body1: string;
+  body2: string;
+  image:string;
+  current:boolean;
+  links: Links[];
+}
+
+export interface ProjectData {
+  title: string;
+  projects: Projects[];
+}

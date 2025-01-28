@@ -5,16 +5,20 @@ import {
   skills,
   professionalData,
   educationData,
+  projectData,
 } from "@/data/page-data";
 import ProfessionalExperience from "./component/ProfessionalExperience";
 import Educations from "./component/Educations";
+import Projects from "./component/Projects";
 
 export default function Home() {
   return (
     <div>
       <About data={aboutMe} skills={skills} />
       <Educations educationData= {educationData} />
+      <Projects projectData= {projectData}></Projects>
       <ProfessionalExperience professionalData={professionalData} />
+  
      
     </div>
   );
