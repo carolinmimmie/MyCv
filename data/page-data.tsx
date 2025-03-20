@@ -12,18 +12,20 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "OM MIG",
+  title: "SÖKER LIA HÖSTEN 2025",
   body: [
-    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstack med inriktning e-handel. Nu vill jag ta steget ut i branschen, bidra till ett team och omsätta mina kunskaper i praktiken. Med lång erfarenhet från restaurangbranschen har jag utvecklat hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Jag ser fram emot att utvecklas vidare och vara en del av er framgång.",
+    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstack med inriktning e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Nu söker jag en praktikplats inför hösten 2025 där jag vill lära mig så mycket som möjligt och bidra till ert team med målet att få en framtida anställning.",
   ],
 };
 
 export const skills = {
-  kodspråk: [
+  tekniker: [
     // Språk
-    { icon: "🌐", text: "HTML" },
-    { icon: "🖌️", text: "CSS" },
+    { icon: "🌐", text: "HTML5" },
+    { icon: "🎨", text: "CSS" },
     { icon: "ʦ", text: "TypeScript" },
+    { icon: "📜", text: "JavaScript" },
+    { icon: "🐘", text: "PHP" },
 
     // Ramverk/Bibliotek
     { icon: "🔺", text: "Angular" },
@@ -33,15 +35,34 @@ export const skills = {
     { icon: "🎨", text: "Material UI" },
     { icon: "🎨", text: "SASS" },
     { icon: "🛠️", text: "Tailwind CSS" },
-    { icon: "📦", text: "Bootstrap" },
 
-    // Databaser/Verktyg
-    { icon: "💾", text: "MySQL Workbench" },
+    // Backend & API-utveckling
+    { icon: "🌿", text: "Node.js" },
+    { icon: "🔗", text: "API-utveckling" },
+    { icon: "🔄", text: "Integrationer med andra system" },
+    { icon: "💳", text: "Betalsystem" },
+    { icon: "🖥️", text: "Realtidssystem (WebSockets)" },
+
+    // Databaser
+    { icon: "💾", text: "MySQL" },
     { icon: "🍃", text: "MongoDB" },
     { icon: "🗂️", text: "SQL" },
+    { icon: "🛒", text: "Bygga databasdrivna e-handelsplattformar" },
 
-    // CMS
+    // CMS & E-handel
     { icon: "📄", text: "WordPress Headless" },
+    { icon: "🛍️", text: "WooCommerce" },
+    { icon: "🌐", text: "Sökmotoroptimering (SEO)" },
+    { icon: "🛒", text: "Utveckling mot e-handelsplattformar" },
+
+    // Arkitektur & Designmönster
+    { icon: "🏗️", text: "Arkitektur & designmönster" },
+    { icon: "🛡️", text: "Säkerhet för utvecklare" },
+
+    // Verktyg & Arbetsmetodik
+    { icon: "🐙", text: "Källkodshantering (Git)" },
+    { icon: "⚡", text: "Testning" },
+    { icon: "🔄", text: "Agila metoder & projektmetodik" },
   ],
   styrkor: [
     { icon: "👂🏼", text: "Lyhörd" },
@@ -98,7 +119,7 @@ export const professionalData = {
 };
 
 export const projectData = {
-  title: "PROJEKT",
+  title: "NÅGRA AV MINA PROJEKT",
   projects: [
     {
       title: "Poster Webshop",
@@ -120,10 +141,10 @@ export const projectData = {
     },
     {
       title: "Audiobooks",
-      body1: "En bokshop där användare kan bläddra bland och köpa ljudböcker.",
-      body2:
-        "Använda teknologier: Next.js och Firebase och TailWind",
-        image: "/images/audiobooks.png",
+      body1:
+        "En bokshop där användare kan bläddra, filtrera och söka bland ljudböcker.",
+      body2: "Använda teknologier: Next.js och Firebase och TailWind",
+      image: "/images/audiobooks.png",
       current: false,
       links: [
         {
@@ -157,7 +178,7 @@ export const projectData = {
     {
       title: "Cool Fashion",
       body1:
-        "En användarvänlig app där du kan shoppa och hantera administratörsfunktioner. Som kund kan du bläddra igenom produkter, lägga dem i varukorgen och slutföra köp",
+        "En användarvänlig app där du kan shoppa och hantera administratörsfunktioner. Som kund kan du söka, bläddra igenom produkter, lägga dem i varukorgen.",
       body2: "Använda teknologier: React, Material UI, Bootstrap och Firebase.",
       image: "/images/coolfashion.png",
       current: false,

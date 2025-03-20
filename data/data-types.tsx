@@ -18,7 +18,7 @@ export interface Skill {
 }
 
 export interface Skills {
-  kodspråk: Skill[];
+  tekniker: Skill[];
   styrkor: Skill[];
 }
 
@@ -38,15 +38,15 @@ export interface EducationData {
 }
 
 export interface Links {
-  text:string;
-  url:string;
+  text: string;
+  url: string;
 }
 export interface Projects {
   title: string;
   body1: string;
   body2: string;
-  image:string;
-  current:boolean;
+  image: string;
+  current: boolean;
   links: Links[];
 }
 

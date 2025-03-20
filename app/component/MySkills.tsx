@@ -8,17 +8,17 @@ interface MySkillsProps {
 
 const MySkills = ({ skills }: MySkillsProps) => {
   const id = useId();
-  const [activeTab, setActiveTab] = useState("kodspråk");
+  const [activeTab, setActiveTab] = useState("tekniker");
 
   const setBg = (active: string) =>
     activeTab === active ? "bg-yellow" : "bg-grey";
 
   const setTabsAlignment = (tab: string) =>
-    tab === "kodspråk" ? "text-left" : "text-right";
+    tab === "tekniker" ? "text-left" : "text-right";
 
   const tabs = (
     <div className="flex">
-      {["kodspråk", "styrkor"].map((el, i) => (
+      {["tekniker", "styrkor"].map((el, i) => (
         <button
           key={`${id}_${i}`}
           type="button"
@@ -34,15 +34,17 @@ const MySkills = ({ skills }: MySkillsProps) => {
   const content = (
     <ul
       className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
-        activeTab === "kodspråk" ? "justify-start" : "justify-end"
+        activeTab === "tekniker" ? "justify-start" : "justify-end"
       }`}
     >
-      {skills[activeTab as keyof Skills].sort((a, b) => a.text.localeCompare(b.text)) .map(({ icon, text }) => (
-        <li key={text} className="skill">
-          <span>{icon}</span>
-          {text}
-        </li>
-      ))}
+      {skills[activeTab as keyof Skills]
+        .sort((a, b) => a.text.localeCompare(b.text))
+        .map(({ icon, text }) => (
+          <li key={text} className="skill">
+            <span>{icon}</span>
+            {text}
+          </li>
+        ))}
     </ul>
   );
 

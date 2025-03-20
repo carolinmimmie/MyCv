@@ -4,7 +4,7 @@ import { skills } from "@/data/page-data";
 import MySkills from "./MySkills";
 interface AboutMeProps {
   data: AboutMe;
-  skills:Skills;
+  skills: Skills;
 }
 const About = ({ data }: AboutMeProps) => {
   const { title, body } = data;

@@ -15,11 +15,9 @@ export default function Home() {
   return (
     <div>
       <About data={aboutMe} skills={skills} />
-      <Educations educationData= {educationData} />
-      <Projects projectData= {projectData}></Projects>
+      <Educations educationData={educationData} />
       <ProfessionalExperience professionalData={professionalData} />
-  
-     
+      <Projects projectData={projectData}></Projects>
     </div>
   );
 }
