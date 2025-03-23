@@ -12,9 +12,9 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "SÖKER LIA HÖSTEN 2025",
+  title: "Söker praktikplats hösten 2025 (LIA)",
   body: [
-    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstack med inriktning e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Nu söker jag en praktikplats inför hösten 2025 där jag vill lära mig så mycket som möjligt och bidra till ert team med målet att få en framtida anställning.",
+    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstackutvecklare med inriktning på e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat en hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål.Jag söker nu en praktikplats inför hösten 2025, och mina praktikperioder är från den 29 september till den 1 december samt från den 19 januari till den 1 maj. Jag ser fram emot att lära mig så mycket som möjligt och bidra till ert team, med målet att på sikt få en framtida anställning.",
   ],
 };
 
@@ -36,33 +36,33 @@ export const skills = {
     { icon: "🎨", text: "SASS" },
     { icon: "🛠️", text: "Tailwind CSS" },
 
-    // Backend & API-utveckling
+    // Backend & API
     { icon: "🌿", text: "Node.js" },
-    { icon: "🔗", text: "API-utveckling" },
-    { icon: "🔄", text: "Integrationer med andra system" },
+    { icon: "🔗", text: "API" },
+    { icon: "🔄", text: "Integrationer" },
     { icon: "💳", text: "Betalsystem" },
-    { icon: "🖥️", text: "Realtidssystem (WebSockets)" },
+    { icon: "🖥️", text: "WebSockets" },
 
     // Databaser
     { icon: "💾", text: "MySQL" },
     { icon: "🍃", text: "MongoDB" },
     { icon: "🗂️", text: "SQL" },
-    { icon: "🛒", text: "Bygga databasdrivna e-handelsplattformar" },
+    { icon: "🛒", text: "E-handel DB" },
 
     // CMS & E-handel
-    { icon: "📄", text: "WordPress Headless" },
+    { icon: "📄", text: "Headless WP" },
     { icon: "🛍️", text: "WooCommerce" },
-    { icon: "🌐", text: "Sökmotoroptimering (SEO)" },
-    { icon: "🛒", text: "Utveckling mot e-handelsplattformar" },
+    { icon: "🌐", text: "SEO" },
+    { icon: "🛒", text: "E-handelsutv." },
 
     // Arkitektur & Designmönster
-    { icon: "🏗️", text: "Arkitektur & designmönster" },
-    { icon: "🛡️", text: "Säkerhet för utvecklare" },
+    { icon: "🏗️", text: "Arkitektur" },
+    { icon: "🛡️", text: "Säkerhet" },
 
     // Verktyg & Arbetsmetodik
-    { icon: "🐙", text: "Källkodshantering (Git)" },
+    { icon: "🐙", text: "Git" },
     { icon: "⚡", text: "Testning" },
-    { icon: "🔄", text: "Agila metoder & projektmetodik" },
+    { icon: "🔄", text: "Agila metoder" },
   ],
   styrkor: [
     { icon: "👂🏼", text: "Lyhörd" },
@@ -72,7 +72,7 @@ export const skills = {
     { icon: "💡", text: "Kreativ problemlösare" },
     { icon: "💪", text: "Hög arbetsmoral" },
     { icon: "📈", text: "Resultatinriktad" },
-    { icon: "🕒", text: "God tidsplanering" },
+    { icon: " 🌟", text: "Positiv energi" },
   ],
 };
 
