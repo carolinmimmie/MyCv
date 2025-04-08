@@ -122,12 +122,30 @@ export const projectData = {
   title: "NÅGRA AV MINA PROJEKT",
   projects: [
     {
+      title: "The Zoo",
+      body1:
+        "En djurhemsida där djur hämtas från ett API och användaren kan mata dem via en knapp. Djuren blir hungriga igen efter några timmar.",
+      body2: "Använda teknologier: React, TypeScript och SASS.",
+      image: "/images/thezoo.png",
+      current: true,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/the-zoo-carolinmimmie-main",
+        },
+        {
+          text: "Testa appen",
+          url: "https://thezoo-pi.vercel.app/",
+        },
+      ],
+    },
+    {
       title: "Poster Webshop",
       body1:
-        "Mitt senaste projekt är en webbshop för posters med modern design och användarvänlig funktionalitet.",
+        "En webbshop för posters med modern design och fokus på användarvänlighet.",
       body2: "Använda teknologier: TypeScript, HTML och SASS.",
       image: "/images/liora-webshop.png",
-      current: true,
+      current: false,
       links: [
         {
           text: "Github",
