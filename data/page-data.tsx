@@ -121,6 +121,24 @@ export const professionalData = {
 export const projectData = {
   title: "NÅGRA AV MINA PROJEKT",
   projects: [
+        {
+      title: "Sliding Puzzle",
+      body1:
+        "Detta projekt är ett klassiskt sliding puzzle där brickorna måste ordnas i rätt ordning genom att flytta dem till det tomma utrymmet. När spelet är vunnet visas en popup med animation.",
+      body2: "Använda teknologier: React, TypeScript, SASS och Framer Motion.",
+      image: "/images/slidingpuzzle.png",
+      current: true,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/n-puzzle",
+        },
+        {
+          text: "Testa appen",
+          url: "https://n-puzzle-three.vercel.app/",
+        },
+      ],
+    },
     {
       title: "The Zoo",
       body1:
