@@ -14,7 +14,7 @@ export const personalData = {
 export const aboutMe = {
   title: "Söker praktikplats hösten 2025 (LIA)",
   body: [
-    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstackutvecklare med inriktning på e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat en hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål.Jag söker nu en praktikplats inför hösten 2025, och mina praktikperioder är från den 29 september till den 1 december samt från den 19 januari till den 1 maj. Jag ser fram emot att lära mig så mycket som möjligt och bidra till ert team, med målet att på sikt få en framtida anställning.",
+    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstackutvecklare med inriktning på e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat en hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Jag söker nu en praktikplats inför hösten 2025, och mina praktikperioder är från den 29 september till den 1 december samt från den 19 januari till den 1 maj. Jag ser fram emot att lära mig så mycket som möjligt och bidra till ert team, med målet att på sikt få en framtida anställning.",
   ],
 };
 
@@ -122,6 +122,24 @@ export const projectData = {
   title: "NÅGRA AV MINA PROJEKT",
   projects: [
         {
+      title: "PosterShop",
+      body1:
+        "En webbshop för posters med modern design och fokus på användarvänlighet.",
+      body2: "Använda teknologier: React, TypeScript, SASS, Context API",
+      image: "/images/liora-webshop.png",
+      current: false,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/PosterShop",
+        },
+        {
+          text: "Testa appen",
+          url: "https://dapper-caramel-329e66.netlify.app/",
+        },
+      ],
+    },
+        {
       title: "Sliding Puzzle",
       body1:
         "Detta projekt är ett klassiskt sliding puzzle där brickorna måste ordnas i rätt ordning genom att flytta dem till det tomma utrymmet. När spelet är vunnet visas en popup med animation.",
@@ -157,24 +175,7 @@ export const projectData = {
         },
       ],
     },
-    {
-      title: "Poster Webshop",
-      body1:
-        "En webbshop för posters med modern design och fokus på användarvänlighet.",
-      body2: "Använda teknologier: TypeScript, HTML och SASS.",
-      image: "/images/liora-webshop.png",
-      current: false,
-      links: [
-        {
-          text: "Github",
-          url: "https://github.com/carolinmimmie/LioraWebshop",
-        },
-        {
-          text: "Testa appen",
-          url: "https://liora-webshop.vercel.app/",
-        },
-      ],
-    },
+
     {
       title: "Audiobooks",
       body1:
