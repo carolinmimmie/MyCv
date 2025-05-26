@@ -121,7 +121,7 @@ export const professionalData = {
 export const projectData = {
   title: "NÅGRA AV MINA PROJEKT",
   projects: [
-        {
+    {
       title: "PosterShop",
       body1:
         "En webbshop för posters med modern design och fokus på användarvänlighet.",
@@ -139,7 +139,7 @@ export const projectData = {
         },
       ],
     },
-        {
+    {
       title: "Sliding Puzzle",
       body1:
         "Detta projekt är ett klassiskt sliding puzzle där brickorna måste ordnas i rätt ordning genom att flytta dem till det tomma utrymmet. När spelet är vunnet visas en popup med animation.",
@@ -154,6 +154,24 @@ export const projectData = {
         {
           text: "Testa appen",
           url: "https://n-puzzle-three.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "Tic Tac Toe",
+      body1:
+        "Ett klassiskt Tic Tac Toe-spel med en rosa twist! Spelarna turas om att sätta sina symboler i ett rutnät tills någon vinner eller det blir oavgjort. Spelet har enkel funktionalitet och lekfull design.",
+      body2: "Använda teknologier: React, TypeScript och SASS.",
+      image: "/images/tictactoe.png",
+      current: true,
+      links: [
+        {
+          text: "Github",
+          url: "https://github.com/carolinmimmie/tic-tac-toe",
+        },
+        {
+          text: "Testa spelet",
+          url: "https://tic-tac-toe-five-black-30.vercel.app/",
         },
       ],
     },
