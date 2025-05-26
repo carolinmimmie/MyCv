@@ -126,7 +126,7 @@ export const projectData = {
       body1:
         "En webbshop för posters med modern design och fokus på användarvänlighet.",
       body2: "Använda teknologier: React, TypeScript, SASS, Context API",
-      image: "/images/liora-webshop.png",
+      image: "/images/postershop.png",
       current: true,
       links: [
         {
