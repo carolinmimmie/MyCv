@@ -7,10 +7,15 @@ module.exports = {
   ],
   theme: {
     colors: {
+      green: "#99C1B9",
+      puce: "#944156",
+      lightpuce: "#E4A9B1 ",
+      lightorange: "#F2D0A9",
+      almond: "#F1E3D3",
+      purple: "#8E7DBE",
       black: "#191A19",
       blue: "#00FFFF",
       yellow: "#FFF734",
-      green: "#68F590",
       grey: "#F3F3F3",
       "grey-light": "#FAFAFA",
       "green-light": "#d2eff1",

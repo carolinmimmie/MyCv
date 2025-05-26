@@ -12,9 +12,9 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "Söker praktikplats hösten 2025 (LIA)",
+  title: "Söker extrajobb som utvecklare",
   body: [
-    "Jag är utbildad frontendutvecklare och vidareutbildar mig till fullstackutvecklare med inriktning på e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat en hög arbetsmoral, en stark förmåga att skapa goda kundrelationer och ett naturligt sätt att arbeta i team. Jag trivs med att ta ansvar och arbeta mot gemensamma mål. Jag söker nu en praktikplats inför hösten 2025, och mina praktikperioder är från den 29 september till den 1 december samt från den 19 januari till den 1 maj. Jag ser fram emot att lära mig så mycket som möjligt och bidra till ert team, med målet att på sikt få en framtida anställning.",
+    "Jag är utbildad frontendutvecklare och vidareutbildar mig just nu till fullstackutvecklare med inriktning på e-handel. Med lång erfarenhet från restaurangbranschen har jag utvecklat en stark arbetsmoral, en god förmåga att bygga kundrelationer och en naturlig känsla för samarbete i team.",
   ],
 };
 

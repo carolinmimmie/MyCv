@@ -11,7 +11,7 @@ const MySkills = ({ skills }: MySkillsProps) => {
   const [activeTab, setActiveTab] = useState("tekniker");
 
   const setBg = (active: string) =>
-    activeTab === active ? "bg-yellow" : "bg-grey";
+    activeTab === active ? "bg-green" : "bg-white";
 
   const setTabsAlignment = (tab: string) =>
     tab === "tekniker" ? "text-left" : "text-right";
