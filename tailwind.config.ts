@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     colors: {
       green: "#99C1B9",
-      puce: "#944156",
+      puce: "#D892A1",
       lightpuce: "#E4A9B1 ",
       lightorange: "#F2D0A9",
       almond: "#F1E3D3",

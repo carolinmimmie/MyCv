@@ -127,7 +127,7 @@ export const projectData = {
         "En webbshop för posters med modern design och fokus på användarvänlighet.",
       body2: "Använda teknologier: React, TypeScript, SASS, Context API",
       image: "/images/liora-webshop.png",
-      current: false,
+      current: true,
       links: [
         {
           text: "Github",
@@ -145,7 +145,7 @@ export const projectData = {
         "Detta projekt är ett klassiskt sliding puzzle där brickorna måste ordnas i rätt ordning genom att flytta dem till det tomma utrymmet. När spelet är vunnet visas en popup med animation.",
       body2: "Använda teknologier: React, TypeScript, SASS och Framer Motion.",
       image: "/images/slidingpuzzle.png",
-      current: true,
+      current: false,
       links: [
         {
           text: "Github",
@@ -163,7 +163,7 @@ export const projectData = {
         "Ett klassiskt Tic Tac Toe-spel med en rosa twist! Spelarna turas om att sätta sina symboler i ett rutnät tills någon vinner eller det blir oavgjort. Spelet har enkel funktionalitet och lekfull design.",
       body2: "Använda teknologier: React, TypeScript och SASS.",
       image: "/images/tictactoe.png",
-      current: true,
+      current: false,
       links: [
         {
           text: "Github",
@@ -181,7 +181,7 @@ export const projectData = {
         "En djurhemsida där djur hämtas från ett API och användaren kan mata dem via en knapp. Djuren blir hungriga igen efter några timmar.",
       body2: "Använda teknologier: React, TypeScript och SASS.",
       image: "/images/thezoo.png",
-      current: true,
+      current: false,
       links: [
         {
           text: "Github",

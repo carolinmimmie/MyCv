@@ -11,7 +11,7 @@ const Sidebar = ({ data }: SidebarProps) => {
   const { name, role, education, contactLinks } = data;
 
   return (
-    <div className="bg-black flex flex-col content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed">
+    <div className="bg-black flex flex-col content-between w-full p-2 h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed">
       <div className="text-white flex flex-col items-center ">
         <Image
           priority
