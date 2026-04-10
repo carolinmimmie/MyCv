@@ -91,28 +91,12 @@ export const projectData = {
   title: "UTVALDA ARBETEN",
   projects: [
     {
-      title: "PosterShop",
-      body1:
-        "E-handelsprojekt byggt med fokus på struktur, produktflöde och en smidig köpupplevelse.",
-      body2: "Next.js, TypeScript, SASS",
-      image: "/images/postershop.png",
-      links: [
-        {
-          text: "GitHub",
-          url: "https://github.com/carolinmimmie/postershop",
-        },
-        {
-          text: "Live",
-          url: "https://din-postershop-url.com",
-        },
-      ],
-    },
-    {
       title: "Lily Gem",
       body1:
         "Next.js-projekt med fokus på modern design och komponentbaserad struktur.",
       body2: "Next.js, TypeScript",
       image: "/images/lily-gem.png",
+      current: false,
       links: [
         {
           text: "GitHub",
@@ -130,6 +114,7 @@ export const projectData = {
         "UI- och varumärkeskoncept byggt som en modern landningssida i Next.js.",
       body2: "Next.js, TypeScript",
       image: "/images/veloura.png",
+      current: false,
       links: [
         {
           text: "GitHub",
@@ -147,6 +132,7 @@ export const projectData = {
         "Experimentellt Next.js-projekt med fokus på layout, struktur och interaktion.",
       body2: "Next.js, TypeScript",
       image: "/images/pineapple.png",
+      current: false,
       links: [
         {
           text: "GitHub",
@@ -155,6 +141,24 @@ export const projectData = {
         {
           text: "Live",
           url: "https://pineapple-beta.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "PosterShop",
+      body1:
+        "E-handelsprojekt byggt med fokus på struktur, produktflöde och en smidig köpupplevelse.",
+      body2: "Next.js, TypeScript, SASS",
+      image: "/images/postershop.png",
+      current: true,
+      links: [
+        {
+          text: "GitHub",
+          url: "https://github.com/carolinmimmie/postershop",
+        },
+        {
+          text: "Live",
+          url: "https://din-postershop-url.com",
         },
       ],
     },
