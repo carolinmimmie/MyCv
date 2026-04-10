@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <div>
       <About data={aboutMe} skills={skills} />
-      <Educations educationData={educationData} />
       <ProfessionalExperience professionalData={professionalData} />
+      <Educations educationData={educationData} />
       <Projects projectData={projectData}></Projects>
     </div>
   );

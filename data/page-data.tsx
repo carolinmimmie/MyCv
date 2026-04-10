@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Carolin Andersson",
-  role: "Fullstack E-handel",
+  role: "Fullstackutvecklare (Frontendfokus)",
   education: [
     "Fullstackutvecklare inom e-handel - Medieinstitutet (2024–nuvarande)",
     "Frontendutvecklare - EC Utbildning (2022–2024)",
@@ -12,12 +12,12 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "Fullstack E-handel",
+  title: "Fullstackutvecklare",
   body: [
-    "Jag är fullstackutvecklare inom e-handel med fokus på Shopify, Sanity och Next.js.",
-    "Jag jobbar i team där olika roller samarbetar för att bygga och leverera lösningar.",
-    "Jag trivs i projekt där jag har kontakt med kund, jobbar med krav och gör om det till fungerande och strukturerad kod.",
-    "Tidigare har jag arbetat i restaurangbranschen vilket har gett mig vana av kundkontakt, ansvar och att jobba i team i högt tempo.",
+    "Jag är frontendutvecklare i grunden och vidareutbildar mig till fullstackutvecklare, där jag får arbeta med både frontend och backend i moderna webbapplikationer.",
+    "I mina projekt bygger och vidareutvecklar jag lösningar med tekniker som Next.js, React och API-integrationer. Jag lägger stor vikt vid att koden är tydlig, strukturerad och att det jag bygger är enkelt att använda.",
+    "Jag trivs i team där man hjälps åt och delar kunskap, och jag är van att samarbeta med både utvecklare och andra roller. Min bakgrund inom service har gjort mig ansvarstagande, lösningsorienterad och bekväm i att kommunicera med olika typer av människor.",
+    "Jag söker en roll där jag kan fortsätta utvecklas som utvecklare och få bidra i projekt, samtidigt som jag bygger på min erfarenhet inom både frontend och backend.",
   ],
 };
 
@@ -48,6 +48,31 @@ export const skills = {
     { icon: "✨", text: "Driven" },
     { icon: "🌱", text: "Nyfiken" },
     { icon: "🔁", text: "Flexibel" },
+    { icon: "💬", text: "Social och kommunikativ" },
+  ],
+};
+
+export const professionalData = {
+  title: "ARBETSLIV",
+  experiences: [
+    {
+      role: "Frontendutvecklare, Grebban, Stockholm (sep 2025–nuvarande)",
+      description:
+        "Jobbar i kundprojekt med Shopify, Sanity och Next.js. Arbetar i olika team beroende på projekt och behov. Bygger nya lösningar från grunden och vidareutvecklar befintliga projekt med nära samarbete med team och kund.",
+      current: true,
+    },
+    {
+      role: "Frontendutvecklare, Afonso, Stockholm (2022–2023)",
+      description:
+        "Under min praktik utvecklade jag moderna webbapplikationer med Next.js och TypeScript, implementerade CMS-lösningar med WordPress Headless och designade responsiva gränssnitt med Sass och Tailwind.",
+      current: false,
+    },
+    {
+      role: "Hotel Rival, Stockholm (2016–2022)",
+      description:
+        "Arbetade med service och kundkontakt i högt tempo med mycket teamwork och ansvar.",
+      current: false,
+    },
   ],
 };
 
@@ -64,24 +89,6 @@ export const educationData = {
       role: "Frontendutvecklare, EC Utbildning (2022–2024)",
       description:
         "Utbildning inom frontendutveckling och moderna webbapplikationer.",
-      current: false,
-    },
-  ],
-};
-
-export const professionalData = {
-  title: "ARBETSLIV",
-  experiences: [
-    {
-      role: "Frontendutvecklare, Grebban, Stockholm (sep 2025–nuvarande)",
-      description:
-        "Jobbar i kundprojekt med Shopify, Sanity och Next.js. Arbetar i olika team beroende på projekt och behov. Bygger nya lösningar från grunden och vidareutvecklar befintliga projekt med nära samarbete med team och kund.",
-      current: true,
-    },
-    {
-      role: "Hotel Rival, Stockholm (2016–2022)",
-      description:
-        "Arbetade med service och kundkontakt i högt tempo med mycket teamwork och ansvar.",
       current: false,
     },
   ],
