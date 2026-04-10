@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Carolin Andersson",
-  role: "Fullstackutvecklare inom e-handel",
+  role: "Fullstack E-handel",
   education: [
     "Fullstackutvecklare inom e-handel - Medieinstitutet (2024–nuvarande)",
     "Frontendutvecklare - EC Utbildning (2022–2024)",
@@ -12,7 +12,7 @@ export const personalData = {
 };
 
 export const aboutMe = {
-  title: "Fullstackutvecklare inom e-handel",
+  title: "Fullstack E-handel",
   body: [
     "Jag är fullstackutvecklare inom e-handel med fokus på Shopify, Sanity och Next.js.",
     "Jag jobbar i team där olika roller samarbetar för att bygga och leverera lösningar.",
