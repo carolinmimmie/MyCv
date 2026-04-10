@@ -43,9 +43,13 @@ main h2 {
 }
 
 .btn {
-  @apply w-1/2 h-12 text-puce font-display uppercase text-xl px-4 transition ease-in-out hover:text-puce hover:bg-green duration-200;
+  @apply w-1/2 h-12 text-puce font-display uppercase text-xl px-4 active:text-white active:bg-green;
+}
+
+.btn.bg-green {
+  @apply text-white;
 }
 
 .skill {
-  @apply bg-puce text-lg py-2 px-4 w-fit rounded-md flex gap-1;
+  @apply bg-puce text-lg py-2 px-4 w-fit  flex gap-1;
 }
