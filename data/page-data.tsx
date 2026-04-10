@@ -26,9 +26,11 @@ export const skills = {
     { icon: "🧠", text: "Sanity" },
     { icon: "🛍️", text: "Shopify" },
     { icon: "🛒", text: "Centra" },
+    { icon: "🧩", text: "WordPress" },
 
     { icon: "⚛️", text: "React" },
     { icon: "🚀", text: "Next.js" },
+    { icon: "⚙️", text: "Angular" },
     { icon: "ʦ", text: "TypeScript" },
     { icon: "📜", text: "JavaScript" },
 
@@ -37,6 +39,10 @@ export const skills = {
 
     { icon: "🎨", text: "SASS" },
     { icon: "🛠️", text: "Tailwind CSS" },
+
+    { icon: "🛍️", text: "Liquid" },
+    { icon: "🔥", text: "Firebase" },
+    { icon: "📎", text: "GraphQL" },
 
     { icon: "💾", text: "MySQL" },
   ],
