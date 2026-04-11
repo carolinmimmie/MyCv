@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply text-puce text-4xl p-2;
+    @apply bg-green text-4xl p-2;
   }
   h2 {
     @apply text-3xl;
@@ -43,7 +43,7 @@ main h2 {
 }
 
 .btn {
-  @apply w-1/2 h-12 text-puce font-display uppercase text-xl px-4 active:text-white active:bg-green;
+  @apply w-1/2 h-12 text-black font-display uppercase text-xl px-4 active:text-white active:bg-green;
 }
 
 .btn.bg-green {
@@ -51,5 +51,5 @@ main h2 {
 }
 
 .skill {
-  @apply bg-puce text-lg py-2 px-4 w-fit  flex gap-1;
+  @apply bg-green text-lg py-2 px-4 w-fit  flex gap-1;
 }
