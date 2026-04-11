@@ -66,6 +66,7 @@ export const skills = {
     { icon: "🎯", text: "Resultatorienterad" },
     { icon: "🗂️", text: "Strukturerad och metodisk" },
   ],
+  tekniker: [],
 };
 
 export const professionalData = {

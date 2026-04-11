@@ -14,11 +14,11 @@ const MySkills = ({ skills }: MySkillsProps) => {
     activeTab === active ? "bg-green" : "bg-white";
 
   const setTabsAlignment = (tab: string) =>
-    tab === "kompetens" ? "text-left" : "text-right";
+    tab === "kompetens" ? "text-left" : tab === "tekniker" ? "text-center" : "text-right";
 
   const tabs = (
     <div className="flex">
-      {["kompetens", "styrkor"].map((el, i) => (
+      {["kompetens", "tekniker", "styrkor"].map((el, i) => (
         <button
           key={`${id}_${i}`}
           type="button"
@@ -34,7 +34,7 @@ const MySkills = ({ skills }: MySkillsProps) => {
   const content = (
     <ul
       className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
-        activeTab === "kompetens" ? "justify-start" : "justify-end"
+        activeTab === "kompetens" ? "justify-start" : activeTab === "tekniker" ? "justify-center" : "justify-end"
       }`}
     >
       {skills[activeTab as keyof Skills]
