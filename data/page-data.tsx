@@ -64,6 +64,7 @@ export const skills = {
     { icon: "🌐", text: "Hög social kompetens" },
     { icon: "🏆", text: "Ambitiös" },
     { icon: "🎯", text: "Resultatorienterad" },
+    { icon: "💰", text: "Fokus på lönsamhet" },
     { icon: "🗂️", text: "Strukturerad och metodisk" },
   ],
 };
