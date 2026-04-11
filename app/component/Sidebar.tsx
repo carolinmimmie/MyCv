@@ -21,9 +21,8 @@ const Sidebar = ({ data }: SidebarProps) => {
           src="/images/profile.png"
           alt="profilepic for cv"
         />
-        <div className="text-center">
+        <div className="text-center grow-full p-8 sm:p-16 w-full sm:basis-2/3  ml-auto">
           <h1 className="mb-2">{name}</h1>
-          {/* <h2 className="mb-8">{role}</h2> */}
           <p className="mb-2">{education[0]}</p>
           <p className="mb-2 ">{education[1]}</p>
           <div className="text-white text-center mb-4 mt-4 sm:mt-8">

@@ -12,7 +12,7 @@ const ProfessionalExperience = ({
 
   return (
     <section>
-      <h2 className="mb-6 break-words"> {title}</h2>
+      <h2 className="mb-6 max-w-full"> {title}</h2>
       <div className="flex flex-col gap-6">
         {experiences.map(({ role, description, current }) => (
           <div key={role} className="flex flex-col rounded-lg">
