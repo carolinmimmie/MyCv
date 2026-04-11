@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Carolin Andersson",
-  role: "Fullstackutvecklare | Shopify, React & Next.js",
+  role: "Fullstackutvecklare inom e-handel | Shopify, React & Next.js",
   education: [
-    "Fullstackutvecklare inom e-handel - Medieinstitutet (2024–nuvarande)",
+    "Fullstackutvecklare inom e-handel - Medieinstitutet (2024–2026)",
     "Frontendutvecklare - EC Utbildning (2022–2024)",
   ],
   contactLinks: [
@@ -14,30 +14,30 @@ export const personalData = {
 export const aboutMe = {
   title: "Fullstackutvecklare",
   body: [
-    "Jag är frontendutvecklare i grunden och vidareutbildar mig till fullstackutvecklare med inriktning mot e-handel.",
+    "Jag har studerat i fyra år till utvecklare med inriktning frontend och har därefter vidareutbildat mig till fullstackutvecklare. Min spetskompetens är främst riktad mot e-handel.",
 
-    "Jag har en bred teknisk grund och är van att snabbt sätta mig in i nya verktyg och system. Jag arbetar främst med Next.js och TypeScript samt CMS som Sanity och Shopify.",
+    "Genom mina studier och mitt arbete på Grebban har jag lärt mig vikten av att hålla ett jämnt högt tempo med fokus på hållbar lönsamhet. Med kunskaper inom både frontend och backend inom e-handel har jag lätt för att sätta mig in i nya arbetsmetoder och system, då jag ser helheten i projektet. Jag strävar efter att snabbt etablera en strukturerad och effektiv arbetsmetodik utifrån företagets arbetssätt.",
 
-    "Det jag gillar mest med yrket är att arbeta från idé till färdig lösning tillsammans med team och kund, där nära samarbete, tydlig kommunikation och gemensamt ansvar leder till bästa resultat.",
+    "Jag drivs av att leverera resultat som säkerställer hög kundnöjdhet, goda interna samarbeten och hög kvalitet i både kod och affärsmål.",
 
-    "Min bakgrund inom service har gett mig stark kommunikationsförmåga, ansvarstagande och trygghet i kundkontakt.",
+    "Min bakgrund inom hotell och restaurang har lärt mig vikten av samarbete, att hålla deadlines, arbeta effektivt och vara stresstålig när det krävs. Den dagliga kundkontakten har gjort kommunikation och lyhördhet till en naturlig del av mitt arbetssätt och stärkt mina sociala förmågor. Jag får energi av att ha öppna dialoger och att hitta nya lösningar för att skapa ännu bättre resultat.",
 
-    "Jag söker en roll där jag kan fortsätta utvecklas, bidra i projekt och vara en del av ett team.",
+    "Jag söker nu en arbetsplats där utveckling, kundfokus och samarbete är en naturlig del av vardagen.",
   ],
 };
 
 export const skills = {
-  tekniker: [
+  kompetens: [
     { icon: "🛍️", text: "Shopify (Liquid, teman & butikslösningar)" },
     { icon: "🧠", text: "Sanity (Headless CMS)" },
-    { icon: "🛒", text: "Centra" },
+    { icon: "🏬", text: "Centra" },
     { icon: "🧩", text: "WordPress (Headless)" },
 
     { icon: "⚛️", text: "React" },
     { icon: "🚀", text: "Next.js" },
-    { icon: "ʦ", text: "TypeScript" },
+    { icon: "📘", text: "TypeScript" },
     { icon: "📜", text: "JavaScript (ES6+)" },
-    { icon: "⚙️", text: "Angular" },
+    { icon: "🅰️", text: "Angular" },
 
     { icon: "🌿", text: "Node.js" },
     { icon: "🐘", text: "PHP" },
@@ -45,19 +45,26 @@ export const skills = {
     { icon: "🔥", text: "Firebase" },
 
     { icon: "🔗", text: "API-integrationer (REST & GraphQL)" },
-    { icon: "📎", text: "GraphQL" },
+    { icon: "📡", text: "GraphQL" },
 
     { icon: "🎨", text: "SASS" },
-    { icon: "🛠️", text: "Tailwind CSS" },
+    { icon: "💨", text: "Tailwind CSS" },
+    { icon: "📋", text: "Asana" },
+    { icon: "🤖", text: "AI" },
   ],
 
   styrkor: [
-    { icon: "💡", text: "Problemlösning" },
+    { icon: "🧠", text: "Problemlösning" },
     { icon: "👥", text: "Teamarbete" },
     { icon: "💬", text: "Kommunikation" },
     { icon: "🤝", text: "Kundkontakt" },
-    { icon: "✨", text: "Driven och ansvarstagande" },
-    { icon: "🌱", text: "Snabblärd och nyfiken" },
+    { icon: "🧭", text: "Självledarskap" },
+    { icon: "⚡", text: "Snabblärd kodare" },
+    { icon: "🔍", text: "Nyfiken" },
+    { icon: "🌐", text: "Hög social kompetens" },
+    { icon: "🏆", text: "Ambitiös" },
+    { icon: "🎯", text: "Resultatorienterad" },
+    { icon: "🗂️", text: "Strukturerad och metodisk" },
   ],
 };
 
@@ -65,9 +72,9 @@ export const professionalData = {
   title: "ARBETSLIV",
   experiences: [
     {
-      role: "Frontendutvecklare, Grebban, Stockholm (sep 2025–nuvarande)",
+      role: "Fullstackutvecklare, Grebban, Stockholm (sep 2025–nuvarande)",
       description:
-        "Arbetar i kundprojekt inom e-handel där jag utvecklar och vidareutvecklar lösningar med Shopify, Sanity och Next.js. Har arbetat med kunder som Pinewood, Syster P, Berg & Berg och Scandinavian Edition. Var även med i ett projekt där vi byggde upp en Shopify-butik för Kasthall från grunden på 12 veckor i ett mindre team. Projektet krävde nära kundkontakt, tydlig kommunikation och ett starkt samarbete genom hela processen.",
+        "Arbetar i kundprojekt inom e-handel där jag utvecklar och vidareutvecklar lösningar med Shopify, Sanity och Next.js, TypeScript. Har arbetat med kunder som Pinewood, Syster P, Berg & Berg, POC och Scandinavian Edition. Jag var även delaktig i ett projekt där vi byggde upp en Shopify-butik för Kasthall från grunden på 12 veckor i ett team. Projektet krävde nära kundkontakt, tydlig kommunikation och starkt samarbete genom hela processen med fokus på deadline och lönsamhet.",
       current: true,
     },
     {
@@ -89,9 +96,9 @@ export const educationData = {
   title: "Utbildning",
   experiences: [
     {
-      role: "Fullstackutvecklare inom e-handel, Medieinstitutet (2024–nuvarande)",
+      role: "Fullstackutvecklare inom e-handel, Medieinstitutet (2024–2026)",
       description:
-        "Fokus på fullstackutveckling med e-handel, inklusive backend (Node.js, PHP), databaser samt integrationer mot tredjepartssystem.",
+        "Fokus på fullstackutveckling inom e-handel, inklusive backend (Node.js, PHP), databaser samt integrationer mot tredjepartssystem.",
       current: true,
     },
     {
@@ -104,12 +111,30 @@ export const educationData = {
 };
 
 export const projectData = {
-  title: "UTVALDA ARBETEN",
+  title: "Projekt",
   projects: [
+    {
+      title: "Kasthall",
+      body1: "Från idé till färdig e-handelslösning.",
+      body2: "Shopify, Tailwind, Liquid, JavaScript, tredjepartssystem",
+      image: "/images/kasthall.png",
+      current: false,
+      links: [
+        {
+          text: "GitHub",
+          url: "",
+        },
+        {
+          text: "Live",
+          url: "https://www.kasthall.com/",
+        },
+      ],
+    },
+
     {
       title: "Lily Gem",
       body1:
-        "En enkel, fiktiv smyckesshop byggd med Next.js, Tailwind och Sanity CMS. Integrerad Stripe-betalning med fokus på ett smidigt köpflöde.",
+        "En smyckesshop byggd med Next.js, Tailwind och Sanity CMS. Integrerad Stripe-betalning med fokus på ett smidigt köpflöde.",
       body2: "Next.js, Tailwind, Sanity, Stripe",
       image: "/images/lily-gem.png",
       current: false,
@@ -127,7 +152,7 @@ export const projectData = {
     {
       title: "Veloura",
       body1:
-        "Fiktiv e-handelsapp byggd med Next.js, Tailwind och Zustand. Smidigt checkout-flöde med Stripe och responsiv design.",
+        "E-handelsapp byggd med Next.js, Tailwind och Zustand. Smidigt checkout-flöde med Stripe och responsiv design.",
       body2: "Next.js, Tailwind, Zustand, Stripe",
       image: "/images/veloura.png",
       current: false,
@@ -145,7 +170,7 @@ export const projectData = {
     {
       title: "Pineapple",
       body1:
-        "Bokningsapplikation byggd med React, TypeScript och SASS. Användare kan boka bord och admin kan hantera bokningar via en adminpanel. Projektet använder CRUD-funktionalitet med ett mock API för att simulera backend.",
+        "Bokningsapplikation byggd med React, TypeScript och SASS. Användare kan boka bord och administratörer kan hantera bokningar via en adminpanel. Projektet använder CRUD-funktionalitet med ett mock API för att simulera backend.",
       body2: "React, TypeScript, SASS, CRUD, Mock API",
       image: "/images/pineapple.png",
       current: false,

@@ -8,17 +8,17 @@ interface MySkillsProps {
 
 const MySkills = ({ skills }: MySkillsProps) => {
   const id = useId();
-  const [activeTab, setActiveTab] = useState("tekniker");
+  const [activeTab, setActiveTab] = useState("kompetens");
 
   const setBg = (active: string) =>
     activeTab === active ? "bg-green" : "bg-white";
 
   const setTabsAlignment = (tab: string) =>
-    tab === "tekniker" ? "text-left" : "text-right";
+    tab === "kompetens" ? "text-left" : "text-right";
 
   const tabs = (
     <div className="flex">
-      {["tekniker", "styrkor"].map((el, i) => (
+      {["kompetens", "styrkor"].map((el, i) => (
         <button
           key={`${id}_${i}`}
           type="button"
@@ -34,7 +34,7 @@ const MySkills = ({ skills }: MySkillsProps) => {
   const content = (
     <ul
       className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
-        activeTab === "tekniker" ? "justify-start" : "justify-end"
+        activeTab === "kompetens" ? "justify-start" : "justify-end"
       }`}
     >
       {skills[activeTab as keyof Skills]
