@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Carolin Andersson",
-  role: "Fullstackutvecklare (Frontendfokus)",
+  role: "Fullstackutvecklare | Shopify, React & Next.js",
   education: [
     "Fullstackutvecklare inom e-handel - Medieinstitutet (2024–nuvarande)",
     "Frontendutvecklare - EC Utbildning (2022–2024)",
@@ -14,47 +14,50 @@ export const personalData = {
 export const aboutMe = {
   title: "Fullstackutvecklare",
   body: [
-    "Jag är frontendutvecklare i grunden och vidareutbildar mig till fullstackutvecklare, där jag får arbeta med både frontend och backend i moderna webbapplikationer.",
-    "I mina projekt bygger och vidareutvecklar jag lösningar med tekniker som Next.js, React och API-integrationer. Jag lägger stor vikt vid att koden är tydlig, strukturerad och att det jag bygger är enkelt att använda.",
-    "Jag trivs i team där man hjälps åt och delar kunskap, och jag är van att samarbeta med både utvecklare och andra roller. Min bakgrund inom service har gjort mig ansvarstagande, lösningsorienterad och bekväm i att kommunicera med olika typer av människor.",
-    "Jag söker en roll där jag kan fortsätta utvecklas som utvecklare och få bidra i projekt, samtidigt som jag bygger på min erfarenhet inom både frontend och backend.",
+    "Jag är frontendutvecklare i grunden och vidareutbildar mig till fullstackutvecklare med inriktning mot e-handel.",
+
+    "Jag har en bred teknisk grund och är van att snabbt sätta mig in i nya verktyg och system. Jag arbetar främst med Next.js och TypeScript samt CMS som Sanity och Shopify.",
+
+    "Det jag gillar mest med yrket är att arbeta från idé till färdig lösning tillsammans med team och kund, där nära samarbete, tydlig kommunikation och gemensamt ansvar leder till bästa resultat.",
+
+    "Min bakgrund inom service har gett mig stark kommunikationsförmåga, ansvarstagande och trygghet i kundkontakt.",
+
+    "Jag söker en roll där jag kan fortsätta utvecklas, bidra i projekt och vara en del av ett team.",
   ],
 };
 
 export const skills = {
   tekniker: [
-    { icon: "🧠", text: "Sanity" },
-    { icon: "🛍️", text: "Shopify" },
+    { icon: "🛍️", text: "Shopify (Liquid, teman & butikslösningar)" },
+    { icon: "🧠", text: "Sanity (Headless CMS)" },
     { icon: "🛒", text: "Centra" },
-    { icon: "🧩", text: "WordPress" },
+    { icon: "🧩", text: "WordPress (Headless)" },
 
     { icon: "⚛️", text: "React" },
     { icon: "🚀", text: "Next.js" },
-    { icon: "⚙️", text: "Angular" },
     { icon: "ʦ", text: "TypeScript" },
-    { icon: "📜", text: "JavaScript" },
+    { icon: "📜", text: "JavaScript (ES6+)" },
+    { icon: "⚙️", text: "Angular" },
 
     { icon: "🌿", text: "Node.js" },
-    { icon: "🔗", text: "API integrationer" },
+    { icon: "🐘", text: "PHP" },
+    { icon: "💾", text: "MySQL" },
+    { icon: "🔥", text: "Firebase" },
+
+    { icon: "🔗", text: "API-integrationer (REST & GraphQL)" },
+    { icon: "📎", text: "GraphQL" },
 
     { icon: "🎨", text: "SASS" },
     { icon: "🛠️", text: "Tailwind CSS" },
-
-    { icon: "🛍️", text: "Liquid" },
-    { icon: "🔥", text: "Firebase" },
-    { icon: "📎", text: "GraphQL" },
-
-    { icon: "💾", text: "MySQL" },
   ],
 
   styrkor: [
-    { icon: "👥", text: "Teamarbete" },
-    { icon: "🤝", text: "Kundkontakt" },
     { icon: "💡", text: "Problemlösning" },
-    { icon: "✨", text: "Driven" },
-    { icon: "🌱", text: "Nyfiken" },
-    { icon: "🔁", text: "Flexibel" },
-    { icon: "💬", text: "Social och kommunikativ" },
+    { icon: "👥", text: "Teamarbete" },
+    { icon: "💬", text: "Kommunikation" },
+    { icon: "🤝", text: "Kundkontakt" },
+    { icon: "✨", text: "Driven och ansvarstagande" },
+    { icon: "🌱", text: "Snabblärd och nyfiken" },
   ],
 };
 
@@ -64,19 +67,19 @@ export const professionalData = {
     {
       role: "Frontendutvecklare, Grebban, Stockholm (sep 2025–nuvarande)",
       description:
-        "Jobbar i kundprojekt med Shopify, Sanity och Next.js. Arbetar i olika team beroende på projekt och behov. Bygger nya lösningar från grunden och vidareutvecklar befintliga projekt med nära samarbete med team och kund.",
+        "Arbetar i kundprojekt inom e-handel där jag utvecklar och vidareutvecklar lösningar med Shopify, Sanity och Next.js. Har arbetat med kunder som Pinewood, Syster P, Berg & Berg och Scandinavian Edition. Var även med i ett projekt där vi byggde upp en Shopify-butik för Kasthall från grunden på 12 veckor i ett mindre team. Projektet krävde nära kundkontakt, tydlig kommunikation och ett starkt samarbete genom hela processen.",
       current: true,
     },
     {
       role: "Frontendutvecklare, Afonso, Stockholm (2022–2023)",
       description:
-        "Under min praktik utvecklade jag moderna webbapplikationer med Next.js och TypeScript, implementerade CMS-lösningar med WordPress Headless och designade responsiva gränssnitt med Sass och Tailwind.",
+        "Utvecklade webbapplikationer med Next.js och TypeScript samt arbetade med headless CMS-lösningar som WordPress. Fokus på komponentbaserad utveckling och responsiv design.",
       current: false,
     },
     {
       role: "Hotel Rival, Stockholm (2016–2022)",
       description:
-        "Arbetade med service och kundkontakt i högt tempo med mycket teamwork och ansvar.",
+        "Arbetade i en serviceinriktad roll med högt tempo, vilket utvecklade min samarbetsförmåga, ansvarstagande och kommunikation.",
       current: false,
     },
   ],
@@ -88,13 +91,13 @@ export const educationData = {
     {
       role: "Fullstackutvecklare inom e-handel, Medieinstitutet (2024–nuvarande)",
       description:
-        "Utbildning inom fullstackutveckling med fokus på e-handel, API:er och headless CMS.",
+        "Fokus på fullstackutveckling med e-handel, inklusive backend (Node.js, PHP), databaser samt integrationer mot tredjepartssystem.",
       current: true,
     },
     {
       role: "Frontendutvecklare, EC Utbildning (2022–2024)",
       description:
-        "Utbildning inom frontendutveckling och moderna webbapplikationer.",
+        "Utbildning inom modern frontendutveckling med fokus på React, TypeScript och responsiv design.",
       current: false,
     },
   ],
@@ -106,8 +109,8 @@ export const projectData = {
     {
       title: "Lily Gem",
       body1:
-        "Next.js-projekt med fokus på modern design och komponentbaserad struktur.",
-      body2: "Next.js, TypeScript",
+        "En enkel, fiktiv smyckesshop byggd med Next.js, Tailwind och Sanity CMS. Integrerad Stripe-betalning med fokus på ett smidigt köpflöde.",
+      body2: "Next.js, Tailwind, Sanity, Stripe",
       image: "/images/lily-gem.png",
       current: false,
       links: [
@@ -124,8 +127,8 @@ export const projectData = {
     {
       title: "Veloura",
       body1:
-        "UI- och varumärkeskoncept byggt som en modern landningssida i Next.js.",
-      body2: "Next.js, TypeScript",
+        "Fiktiv e-handelsapp byggd med Next.js, Tailwind och Zustand. Smidigt checkout-flöde med Stripe och responsiv design.",
+      body2: "Next.js, Tailwind, Zustand, Stripe",
       image: "/images/veloura.png",
       current: false,
       links: [
@@ -142,8 +145,8 @@ export const projectData = {
     {
       title: "Pineapple",
       body1:
-        "Experimentellt Next.js-projekt med fokus på layout, struktur och interaktion.",
-      body2: "Next.js, TypeScript",
+        "Bokningsapplikation byggd med React, TypeScript och SASS. Användare kan boka bord och admin kan hantera bokningar via en adminpanel. Projektet använder CRUD-funktionalitet med ett mock API för att simulera backend.",
+      body2: "React, TypeScript, SASS, CRUD, Mock API",
       image: "/images/pineapple.png",
       current: false,
       links: [
@@ -160,7 +163,7 @@ export const projectData = {
     {
       title: "PosterShop",
       body1:
-        "E-handelsprojekt byggt med fokus på struktur, produktflöde och en smidig köpupplevelse.",
+        "E-handelsprojekt med fokus på struktur, produktflöde och en tydlig köpupplevelse.",
       body2: "Next.js, TypeScript, SASS",
       image: "/images/postershop.png",
       current: true,
