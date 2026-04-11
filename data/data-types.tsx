@@ -18,7 +18,7 @@ export interface Skill {
 }
 
 export interface Skills {
-  tekniker: Skill[];
+  kompetens: Skill[];
   styrkor: Skill[];
 }
 
