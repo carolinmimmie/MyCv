@@ -16,13 +16,13 @@ export const aboutMe = {
   body: [
     "Jag har studerat i fyra år till utvecklare med inriktning frontend och har därefter vidareutbildat mig till fullstackutvecklare. Min spetskompetens är främst riktad mot e-handel.",
 
-    "Genom mina studier och mitt arbete på Grebban har jag lärt mig vikten av att hålla ett jämnt högt tempo med fokus på hållbar lönsamhet. Med kunskaper inom både frontend och backend inom e-handel har jag lätt för att sätta mig in i nya arbetsmetoder och system, då jag ser helheten i projektet. Jag strävar efter att snabbt etablera en strukturerad och effektiv arbetsmetodik utifrån företagets arbetssätt.",
+    "Genom mina studier och mitt arbete på Grebban Design AB har jag lärt mig vikten av att hålla ett jämnt högt tempo med fokus på hållbar lönsamhet. Med kunskaper inom både frontend och backend inom e-handel har jag lätt för att sätta mig in i nya arbetsmetoder och system, då jag ser helheten i projektet. Jag strävar efter att snabbt etablera en strukturerad och effektiv arbetsmetodik utifrån företagets arbetssätt.",
 
     "Jag drivs av att leverera resultat som säkerställer hög kundnöjdhet, goda interna samarbeten och hög kvalitet i både kod och affärsmål.",
 
     "Min bakgrund inom hotell och restaurang har lärt mig vikten av samarbete, att hålla deadlines, arbeta effektivt och vara stresstålig när det krävs. Den dagliga kundkontakten har gjort kommunikation och lyhördhet till en naturlig del av mitt arbetssätt och stärkt mina sociala förmågor. Jag får energi av att ha öppna dialoger och att hitta nya lösningar för att skapa ännu bättre resultat.",
 
-    "Jag söker nu en arbetsplats där utveckling, kundfokus och samarbete är en naturlig del av vardagen.",
+    "Jag söker en arbetsplats där utveckling, kundfokus,samarbete och långsiktighet är en del av företagets värderingar.",
   ],
 };
 
@@ -204,5 +204,19 @@ export const projectData = {
         },
       ],
     },
+  ],
+};
+export const coverLetterData = {
+  title: "Personligt brev",
+  body: [
+    "Hej! Mitt namn är Carolin och jag är en passionerad frontendutvecklare med ett stort intresse för att skapa moderna och användarvänliga webbapplikationer.",
+
+    "Jag har en utbildning inom frontendutveckling och studerar just nu vidare inom fullstackutveckling. Jag tycker särskilt om att arbeta med tekniker som React, TypeScript och Node.js, och jag drivs av att ständigt utvecklas och lära mig nya saker.",
+
+    "Under mina studier och projekt har jag byggt flera applikationer, bland annat en webshop, bokningssystem och interaktiva spel. Dessa erfarenheter har stärkt min förmåga att strukturera kod, lösa problem och skapa bra användarupplevelser.",
+
+    "Just nu söker jag möjligheter där jag kan fortsätta utvecklas som utvecklare, bidra i riktiga projekt och samarbeta med andra i team.",
+
+    "Tack för att du tar dig tid att läsa min ansökan. Jag ser fram emot möjligheten att få bidra och fortsätta utvecklas.",
   ],
 };
