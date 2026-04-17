@@ -6,13 +6,10 @@ const LanguageToggle = () => {
   const { language, setLanguage } = useLanguage();
 
   return (
-    <div
-      onClick={() => setLanguage(language === "sv" ? "en" : "sv")}
-      className="cursor-pointer"
-    >
-      <span>SV</span>
+    <div>
+      <button onClick={() => setLanguage("sv")}>SV</button>
       <span> | </span>
-      <span>EN</span>
+      <button onClick={() => setLanguage("en")}>EN</button>
     </div>
   );
 };
