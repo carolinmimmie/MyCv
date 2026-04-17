@@ -19,7 +19,7 @@ const About = ({ data }: AboutMeProps) => {
 
   return (
     <section>
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center mb-8">
         <h2>{title[language]}</h2>
         <LanguageToggle />
       </div>
