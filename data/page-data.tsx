@@ -60,7 +60,7 @@ export const aboutMe = {
     },
     {
       sv: "Min bakgrund inom hotell och restaurang har lärt mig vikten av samarbete, att hålla deadlines, arbeta effektivt och vara stresstålig när det krävs. Den dagliga kundkontakten har gjort kommunikation och lyhördhet till en naturlig del av mitt arbetssätt och stärkt mina sociala förmågor. Jag får energi av att ha öppna dialoger och att hitta nya lösningar för att skapa ännu bättre resultat.",
-      en: "My background in hospitality has taught me how to work closely with others, keep deadlines, and stay calm when things get busy. Working with customers daily made communication and listening a natural part of how I work. I enjoy open conversations and finding better ways to solve problems.",
+      en: "My background in the hotel and restaurant business has taught me how to work closely with others, keep deadlines, and stay calm when things get busy. Working with customers daily made communication and listening a natural part of how I work. I enjoy open conversations and finding better ways to solve problems.",
     },
     {
       sv: "Jag söker en arbetsplats där utveckling, kundfokus,samarbete och långsiktighet är en del av företagets värderingar.",
