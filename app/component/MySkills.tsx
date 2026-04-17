@@ -1,6 +1,7 @@
 "use client";
 import React, { useId, useState } from "react";
 import { Skills } from "@/data/data-types";
+import { useLanguage } from "../context/LanguageContext";
 
 interface MySkillsProps {
   skills: Skills;
@@ -8,7 +9,11 @@ interface MySkillsProps {
 
 const MySkills = ({ skills }: MySkillsProps) => {
   const id = useId();
-  const [activeTab, setActiveTab] = useState("kompetens");
+  const { language } = useLanguage();
+  const { labels } = skills;
+  const tabKeys = ["kompetens", "styrkor"] as const;
+  const [activeTab, setActiveTab] =
+    useState<(typeof tabKeys)[number]>("kompetens");
 
   const setBg = (active: string) =>
     activeTab === active ? "bg-green" : "bg-white";
@@ -18,14 +23,14 @@ const MySkills = ({ skills }: MySkillsProps) => {
 
   const tabs = (
     <div className="flex">
-      {["kompetens", "styrkor"].map((el, i) => (
+      {tabKeys.map((el, i) => (
         <button
           key={`${id}_${i}`}
           type="button"
           className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
           onClick={() => setActiveTab(el)}
         >
-          {el}
+          {labels[el][language]}
         </button>
       ))}
     </div>
@@ -37,12 +42,12 @@ const MySkills = ({ skills }: MySkillsProps) => {
         activeTab === "kompetens" ? "justify-start" : "justify-end"
       }`}
     >
-      {skills[activeTab as keyof Skills]
-        .sort((a, b) => a.text.localeCompare(b.text))
+      {(skills[activeTab as keyof Omit<typeof skills, "labels">] as any[])
+        .sort((a, b) => a.text[language].localeCompare(b.text[language]))
         .map(({ icon, text }) => (
-          <li key={text} className="skill">
+          <li key={text[language]} className="skill">
             <span>{icon}</span>
-            {text}
+            {text[language]}
           </li>
         ))}
     </ul>

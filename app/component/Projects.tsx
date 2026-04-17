@@ -1,8 +1,11 @@
+"use client";
+
 import { ProjectData } from "@/data/data-types";
 import React from "react";
 import Github from "./icons/github";
 import Window from "./icons/window";
 import Image from "next/image";
+import { useLanguage } from "../context/LanguageContext";
 
 interface ProjectDataProps {
   projectData: ProjectData;
@@ -10,41 +13,42 @@ interface ProjectDataProps {
 
 const Projects = ({ projectData }: ProjectDataProps) => {
   const { title, projects } = projectData;
+  const { language } = useLanguage();
 
   return (
     <section>
-      <h2 className="mb-6"> {title}</h2>
+      <h2 className="mb-6"> {title[language]}</h2>
 
       <div className="flex flex-col gap-6">
         {projects.map(({ title, body1, body2, image, current, links }) => (
-          <div key={title} className="flex flex-col rounded-lg">
+          <div key={title[language]} className="flex flex-col rounded-lg">
             <span
               className={`h-2 ${current ? "bg-[#5a5441]" : "bg-[#ebe4d6]"}`}
             />
             <div className="bg-[#efeeec] p-6 drop-shadow-md ">
               <Image
-                aria-label={`$Image of ${title}`}
+                aria-label={`$Image of ${title[language]}`}
                 src={image}
-                alt={`$Image of ${title}`}
+                alt={`$Image of ${title[language]}`}
                 className={" w-full h-48 object-cover"}
                 priority={false}
                 width={500}
                 height={500}
               />
 
-              <h3 className="mt-2">{title}</h3>
+              <h3 className="mt-2">{title[language]}</h3>
               <div className="flex flex-col gap-6 ">
-                <p className="mt-2">{body1}</p>
-                <p className="mt-2">{body2}</p>
+                <p className="mt-2">{body1[language]}</p>
+                <p className="mt-2">{body2[language]}</p>
               </div>
               <div className="flex flex-row mt-4 justify-between">
                 <a href={links[0].url} className="flex items-center">
                   <Github className="icons-contactme" />
-                  <span className="text-black"> {links[0].text}</span>
+                  <span className="text-black"> {links[0].text[language]}</span>
                 </a>
                 <a href={links[1].url} className="flex items-center">
                   <Window className="icons-contactme" />
-                  <span className="text-black"> {links[1].text}</span>
+                  <span className="text-black"> {links[1].text[language]}</span>
                 </a>
               </div>
             </div>

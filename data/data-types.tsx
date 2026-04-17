@@ -1,56 +1,73 @@
 // types.tsx
 
+export type LangString = {
+  sv: string;
+  en: string;
+};
+
 export interface PersonalData {
   name: string;
-  role: string;
-  education: string[];
+  role: LangString;
+  location: string;
+  about: LangString;
+  focus: LangString;
+  education: LangString[];
   contactLinks: string[];
+  labels: {
+    contactMe: LangString;
+  };
 }
 
 export interface AboutMe {
-  title: string;
-  body: string[];
+  title: LangString;
+  body: LangString[];
 }
 
 export interface Skill {
   icon: string;
-  text: string;
+  text: LangString;
 }
 
 export interface Skills {
   kompetens: Skill[];
   styrkor: Skill[];
+  labels: {
+    kompetens: LangString;
+    styrkor: LangString;
+  };
 }
 
 export interface Experience {
-  role: string;
-  description: string;
+  role: LangString;
+  description: LangString;
   current: boolean;
 }
 
 export interface ProfessionalData {
-  title: string;
+  title: LangString;
   experiences: Experience[];
 }
+
 export interface EducationData {
-  title: string;
+  title: LangString;
   experiences: Experience[];
 }
 
 export interface Links {
-  text: string;
+  text: LangString;
   url: string;
 }
+
 export interface Projects {
-  title: string;
-  body1: string;
-  body2: string;
+  title: LangString;
+  body1: LangString;
+  body2: LangString;
   image: string;
   current: boolean;
   links: Links[];
 }
 
 export interface ProjectData {
-  title: string;
+  title: LangString;
   projects: Projects[];
 }

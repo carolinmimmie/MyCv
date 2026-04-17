@@ -1,22 +1,34 @@
+"use client";
+
 import { AboutMe, Skills } from "@/data/data-types";
 import React, { useId } from "react";
 import { skills } from "@/data/page-data";
 import MySkills from "./MySkills";
+import { useLanguage } from "../context/LanguageContext";
+import LanguageToggle from "./LanguageToggle";
+
 interface AboutMeProps {
   data: AboutMe;
   skills: Skills;
 }
+
 const About = ({ data }: AboutMeProps) => {
   const { title, body } = data;
+  const { language } = useLanguage();
   const id = useId();
+
   return (
     <section>
-      <h2 className="mb-8">{title}</h2>
+      <div className="flex items-center justify-between mb-8">
+        <h2>{title[language]}</h2>
+        <LanguageToggle />
+      </div>
       {body?.map((el, i) => (
         <p key={`${id}_${i}`} className="mb-6">
-          {el}{" "}
+          {el[language]}{" "}
         </p>
       ))}
+
       <MySkills skills={skills} />
     </section>
   );
