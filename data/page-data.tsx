@@ -2,7 +2,7 @@ export const personalData = {
   name: "Carolin Andersson",
   role: {
     sv: "Fullstackutvecklare inom e-handel | Shopify, React & Next.js",
-    en: "Full-stack developer in e-commerce | Shopify, React & Next.js",
+    en: "Fullstackdeveloper in e-commerce | Shopify, React & Next.js",
   },
   location: "Stockholm",
 
@@ -227,11 +227,8 @@ export const projectData = {
       image: "/images/kasthall.png",
       current: false,
       links: [
-        { text: { sv: "GitHub", en: "GitHub" }, url: { sv: "", en: "" } },
-        {
-          text: { sv: "Live", en: "Live" },
-          url: { sv: "https://www.kasthall.com/", en: "https://www.kasthall.com/" },
-        },
+        { text: { sv: "GitHub", en: "GitHub" }, url: "" },
+        { text: { sv: "Live", en: "Live" }, url: "https://www.kasthall.com/" },
       ],
     },
 
@@ -250,11 +247,11 @@ export const projectData = {
       links: [
         {
           text: { sv: "GitHub", en: "GitHub" },
-          url: { sv: "https://github.com/carolinmimmie/Lily-Gem", en: "https://github.com/carolinmimmie/Lily-Gem" },
+          url: "https://github.com/carolinmimmie/Lily-Gem",
         },
         {
           text: { sv: "Live", en: "Live" },
-          url: { sv: "https://lily-gem.vercel.app/", en: "https://lily-gem.vercel.app/" },
+          url: "https://lily-gem.vercel.app/",
         },
       ],
     },
@@ -273,11 +270,11 @@ export const projectData = {
       links: [
         {
           text: { sv: "GitHub", en: "GitHub" },
-          url: { sv: "https://github.com/carolinmimmie/Veloura", en: "https://github.com/carolinmimmie/Veloura" },
+          url: "https://github.com/carolinmimmie/Veloura",
         },
         {
           text: { sv: "Live", en: "Live" },
-          url: { sv: "https://veloura.vercel.app/", en: "https://veloura.vercel.app/" },
+          url: "https://veloura.vercel.app/",
         },
       ],
     },
@@ -296,11 +293,11 @@ export const projectData = {
       links: [
         {
           text: { sv: "GitHub", en: "GitHub" },
-          url: { sv: "https://github.com/carolinmimmie/pineapple", en: "https://github.com/carolinmimmie/pineapple" },
+          url: "https://github.com/carolinmimmie/pineapple",
         },
         {
           text: { sv: "Live", en: "Live" },
-          url: { sv: "https://pineapple-beta.vercel.app/", en: "https://pineapple-beta.vercel.app/" },
+          url: "https://pineapple-beta.vercel.app/",
         },
       ],
     },
@@ -319,11 +316,11 @@ export const projectData = {
       links: [
         {
           text: { sv: "GitHub", en: "GitHub" },
-          url: { sv: "https://github.com/carolinmimmie/postershop", en: "https://github.com/carolinmimmie/postershop" },
+          url: "https://github.com/carolinmimmie/postershop",
         },
         {
           text: { sv: "Live", en: "Live" },
-          url: { sv: "https://din-postershop-url.com", en: "https://din-postershop-url.com" },
+          url: "https://din-postershop-url.com",
         },
       ],
     },
